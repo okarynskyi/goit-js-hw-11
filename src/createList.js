@@ -15,7 +15,7 @@ const creatList = list => {
         comments,
         downloads,
       }) =>
-           `<a class="gallery__link link" href="${largeImageURL}">
+           `<a href="${largeImageURL}">
            <div class="photo-card">
            <div class="gallery__thumb">
            <img class="gallery__image" src="${webformatURL}" alt="${tags}" loading="lazy" />
